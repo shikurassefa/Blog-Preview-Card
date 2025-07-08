@@ -13,22 +13,28 @@
     <title>Blog-Preview-Card</title>
   </head>
   <body>
-    <main class="card">
+
+    <main class="card" role="region" aria-label="Blog preview card">
    
-      <img src="./images/illustration-article.jpg" alt="" class="blog-image">
+      <img src="./image/illustration-article.jpg" alt="Stylized article illustration about HTML and CSS-article" class="blog-image">
      
-      <div class="content">
-        <button>learning</button>
-        <p>published 21 Dec 2023</p>
-        <h1>HTML & CSS foundations</h1>
+    <div class="content">
+        <button type="button" aria-label="Learning category tag">Learning</button>
+
+        <p class="date">published 21 Dec 2023</p>
+     <a href="#" aria-label="Read more about HTML & CSS foundations">
+  <h1>HTML & CSS foundations</h1>
+</a>
+
         <p class="description">
           These languages are the backbone of every website, defining structure,
           content, and presentation.
         </p>
       </div>
+
       <div class="author">
-        <img src="./images/image-avatar.webp" alt="author" class="img-author"/>
-        <p class="author-name">shikur assefa</p>
+        <img src="./image/image-avatar.webp" alt="Portrait of Greg Hooper, the author" class="img-author"/>
+        <p class="author-name">Greg Hooper</p>
       </div>
     </main>
   </body>
