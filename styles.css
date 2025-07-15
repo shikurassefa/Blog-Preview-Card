@@ -1,4 +1,4 @@
-* {
+ *,*::before, *::after {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -25,9 +25,8 @@ body {
   font-size: 1rem;
   font-weight: 500;
 }
-main
-{
-    display: flex;
+main {
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -47,8 +46,6 @@ main
 }
 .blog-image {
   border-radius: 0.65rem;
-
-  box-shadow: 0 4 4 0 #000;
 }
 .content {
   display: flex;
@@ -97,4 +94,4 @@ main
 .author p {
   text-transform: capitalize;
   font-weight: 900;
-}
+} 
